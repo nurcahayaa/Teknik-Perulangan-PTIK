@@ -1,11 +1,13 @@
 #include <iostream>
 #include <conio.h>
+using namespace std;
 int main ()
 {
       int bil = 10;
       do
       {
-            cout << "HI! do-while tetap ini dijalankan, walaupun kondisi / keadaan salah."<<endl;
+            cout << "HI! do-while tetap ini dijalankan," << 
+            "walaupun kondisi / keadaan salah."<<endl;
       }
       while(bil < 5);
           cout<<endl;
